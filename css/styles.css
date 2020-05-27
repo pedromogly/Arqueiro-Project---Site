@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: midas;
+    src:url(../fonte/muidenCastleScript.ttf);
+}
+
+@font-face {
+    font-family: outro;
+    src:url(../fonte/WhiteMellow.otf);
+}
+
+body {
+    background-image: url(../imagens/ThemeAlfa.jpg);
+    background-attachment: inherit;
+    background-size:cover;
+    font-family: 'Baloo Paaji 2';
+    webkit-font-smoothing: antialiased;
+}
+/* Padrões de botoes e input */
+button, input, textarea {
+    font: 400 40px outro;
+    border-radius: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+h2 {
+    font-size: 80px;
+    font-weight: normal;
+    font-family: outro;
+    height: 60px;
+}
+
+#cortitulo {
+    font-size: 100px;
+    
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; 
+}
+
+h3 {
+    padding: 10px;
+    font-size: 55px;
+    font-weight: normal;
+    font-family: outro;
+}
+#estiloTexto {
+    
+}
+
+#titulo {
+    
+}
+
+#menu {
+    text-align: right;
+    padding: 5px;
+    margin: 5px;
+    background-image: url(../imagens/flechas.jpg);
+    width: 99%;
+    position: fixed;
+    list-style: none;
+    border: 3px solid #EDEDED;
+    border-radius: 15px;
+    
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    border-radius: 15px;
+    font-family: outro;
+    font-size: 50px;
+    padding: 0px 15px;
+    display: inline-block;
+    
+    background-color: #80DEEA;
+    color: black;
+    text-decoration: none;
+    border: 3px solid #EDEDED;
+}
+
+#janela {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 7px;
+    background-color: gainsboro;
+    list-style: none;
+    border: 3px solid #EDEDED;
+}
+
+#janelaEsquerda {
+    border-radius: 15px;
+    padding: 10px;
+    background-color:#CE93D8;
+    max-width: 65%;
+    border: 3px solid #EDEDED;
+}
+
+#janelaDireita {
+    border-radius: 15px;
+    padding: 5px;
+    background-color:antiquewhite;
+    width: 35%;
+    border-bottom: 3px solid #EDEDED;
+    border-left: 3px solid #EDEDED;
+    border-right: 3px solid #EDEDED;
+    border-top: 3px solid #EDEDED;
+}
